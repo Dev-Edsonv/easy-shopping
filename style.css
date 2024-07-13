@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+#first-section {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    top: 30%;
+    left: 80px;
+}
+
+#seccound-section {
+    display: inline-block;
+    background-color: rgb(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 80px;
+    color: #5D5D7D;
+    width: 368px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #5D5D7D;
+    width: 540px;
+    margin: 15px 0;
+}
+
+button {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35.57px;
+    text-align: center;
+    color: #ffffff;
+    width: 269px;
+    height: 62px;
+    background-color: #9499EA;
+    border-radius: 25px;
+    border: none;
+}
+
+nav {
+    text-align: center;
+    margin-top: 12px;
+}
+
+a {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 41.5px;
+    text-decoration: none;
+    color: #5D5D7D;
+    margin-right: 32px;
+}
+
+a:hover {
+    opacity: 0.5;
+    cursor: grab;
+}
+
+img {
+    width: 320px;
+    position: relative;
+    top: 24%;
+    right: 95px;
+}
+
+@media (max-width: 844px) {
+
+    #first-section {
+        width: 100vw;
+        height: 50%;
+        display: block;
+        position: static;
+    }
+
+    #seccound-section {
+        height: 100vw;
+        width: 100vw;
+        position: static;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: 186px;
+        text-align: center;
+        margin: 30px auto 20px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        width: 296px;
+        text-align: center;
+        margin: 0 auto 20px;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    img {
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 50px;
+        position: static;
+    }
+
+}
+
+@media (max-width: 330px) {
+
+    #first-section {
+        height: 62%;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+        width: 182px;
+        font-size: 16px;
+        height: 43px;
+    }
+
+    img {
+        width: 60%;
+    }
+}
